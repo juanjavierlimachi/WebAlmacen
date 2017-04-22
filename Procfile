@@ -1,0 +1,1 @@
+web: gunicorn sistemaAlmacenAnterior.wsgi -b 0.0.0.0:$PORT
